@@ -1,0 +1,32 @@
+.values{
+align-items: center;
+text-align: center;
+max-width: 1230px;
+margin: 60px auto;
+}
+.values__text p{
+    width: 700;
+    margin-top: 24px;
+    color: #787A80;
+}
+.values__icon-boxes{
+    justify-content: space-between;
+    display: flex; 
+    margin-top: 60px;
+}
+.values__icon-boxes div{
+    width: 285px;
+    height: 188px;
+    margin-left: 94px;
+    margin-right: 94px;
+}
+.p1{
+    width: 700;
+}
+.p2 {
+    margin-top: 24px;
+    text-align: center;
+    color: #787A80;
+    width: 400;
+}
+  
