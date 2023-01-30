@@ -1,0 +1,37 @@
+.services {
+    background-image: url("../img/bg-image.jpg");
+    height: 880px;
+    width: 1920px;
+    text-align: center;
+}
+.services__idle{
+    display: flex;
+    width: 1230px;
+    margin: 60px auto;
+}
+.services__idle div{
+    width: 285px;
+    height: 285px;
+    justify-content: space-between;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: white;
+}
+.services__idle img{
+    margin: 89px 116px 24px ;
+}
+.services__idle p{
+    width: 700;
+}
+.services__view-all{
+    display: flex;
+    height: 52px;
+    width: 652px;
+    margin: 80px auto;
+}
+.services__view-all h3{
+    margin-right: 40px;
+}
+.services__view-all button{
+    background-color: #FF5A30;
+}
