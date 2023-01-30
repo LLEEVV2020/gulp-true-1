@@ -1,0 +1,21 @@
+.requestform{
+    text-align: center;
+    width: 1230px;
+    height: 243px;
+    margin: 120px auto;
+}
+.requestform__form{
+    display: flex;
+}
+.requestform__form div{
+    width: 260px;
+    height: 73px;
+    margin-top: 32px;
+    margin-right: 24px;
+}
+.requestform__form button{
+    margin-top: 61px;
+    width:104px ;
+    height: 44px;
+    background-color: #FF5A30;
+}
