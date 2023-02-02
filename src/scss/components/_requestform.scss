@@ -2,12 +2,14 @@
     text-align: center;
     width: 1230px;
     height: 243px;
-    margin: 120px auto;
+    margin:  auto;
+    transform: translateY(50%);
 }
 
 .requestform__form {
     justify-content: space-between;
     display: flex;
+    
 }
 
 .requestform__form div {
@@ -15,6 +17,8 @@
     height: 73px;
     margin-top: 32px;
     margin-right: 24px;
+    align-items: center;
+
 }
 
 .requestform__form input {
