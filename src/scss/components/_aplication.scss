@@ -1,0 +1,22 @@
+.contact-section {
+    height: 826px;
+    background-image: url(../img/aplication-image.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.contact-section .container {
+    width:495px;
+    height:666px;
+    display: flex;
+    justify-content: flex-end;
+}
+.contact-section__form {
+    display: flex;
+    flex-direction: column;
+    max-width: 495px;
+}
+.form-field{
+    margin-bottom: 20px;
+    display: flex;
+}
