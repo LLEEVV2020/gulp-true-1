@@ -60,3 +60,25 @@
         font-weight: 400;
     }
 }
+.recent-news__item{
+position: relative;
+color: #787A80;
+}
+.recent-news__item:not(:last-child) {
+    margin-right: 21px;
+}
+.recent-news__item:not(:last-child)::after {
+    content: "";
+    height: 11px;
+    width: 1px;
+    background-color: currentColor;
+    display: inline-block;
+    position: absolute;
+    top: 4px;
+    right: -12px;
+}
+.recent-news__commens {
+    padding-left: 24px;
+    background-image: url(../img/svg/newsChat.svg);
+    background-repeat: no-repeat;
+}
