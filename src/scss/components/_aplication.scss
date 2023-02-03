@@ -8,13 +8,47 @@
 .contact-section .container {
     display: flex;
     justify-content: flex-end;
+    
 }
 .contact-section__form {
     display: flex;
     flex-direction: column;
     max-width: 495px;
+    margin-top: 80px ;
+    background-color: white;
 }
 .form-field{
     margin-bottom: 20px;
     display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.form-field label{
+    margin-bottom: 8px;
+}
+.form-field input{
+    width:415px;
+    height:44px;
+}
+.contact-section__title{
+    margin: 48px 40px ;
+    width:415px;
+    height:44px;
+}
+.form-field__checkbox{
+    margin-left: 40px;
+    margin-bottom: 24px;
+}
+.centered{
+    width:174px;
+    height:44px;
+    margin-left: 161px;
+    margin-bottom: 48px;
+}
+.centered .btn{
+    color: white;
+    background-color: #FF5A30;
+    text-align: center;
 }
